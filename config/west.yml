@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: art-display
-      url-base: https://github.com/PowerAbuser/zmk-sofle
+      url-base: https://github.com/PowerAbuser
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
