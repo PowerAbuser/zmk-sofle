@@ -1684,7 +1684,7 @@ const lv_img_dsc_t tears_1bit_art = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST
-    LV_ATTRIBUTE_IMG_bitlady_ROTATED uint8_t bitlady_rotated_map[] = {
+    LV_ATTRIBUTE_IMG_BITLADY_ROTATED uint8_t bitlady_rotated_map[] = {
 #if CONFIG_NICE_VIEW_WIDGET_INVERTED
         0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
         0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
