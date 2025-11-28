@@ -1147,10 +1147,6 @@ const lv_img_dsc_t corro12 = {
 #define LV_ATTRIBUTE_IMG_TEARS_1BIT_ART
 #endif
 
-
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_CORRO01 uint8_t corro01_map[] = {
-
-
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_TEARS_1BIT_ART uint8_t tears_1bit_art_map[] = {
     #if CONFIG_NICE_VIEW_WIDGET_INVERTED
             0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
