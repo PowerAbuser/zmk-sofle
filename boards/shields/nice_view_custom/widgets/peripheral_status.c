@@ -141,8 +141,6 @@ int zmk_widget_status_init(struct zmk_widget_status *widget, lv_obj_t *parent) {
     lv_canvas_set_buffer(top, widget->cbuf, CANVAS_SIZE, CANVAS_SIZE, LV_IMG_CF_TRUE_COLOR);
 
     lv_obj_t *art = lv_img_create(widget->obj);
-    bool random = sys_rand32_get() & 1;
-    lv_img_set_src(art, random ? &balloon : &mountain);
     lv_img_set_src(art, &tears_1bit_art);
 
     // lv_obj_t * art = lv_animimg_create(widget->obj);            //<--
