@@ -98,7 +98,7 @@ layers:
   - ':'
   - {t: '=', s: +}
   - '#'
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:skip-previous$$
   - '&'
   - (
   - )
@@ -111,7 +111,7 @@ layers:
   - '*'
   - +
   - {t: \, s: '|'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:skip-next$$
   - {t: /, s: '?'}
   - {t: '-', s: _}
   - <
@@ -124,7 +124,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - $$mdi:mouse-left-click-outline$$
+  - PLAY PAUSE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
