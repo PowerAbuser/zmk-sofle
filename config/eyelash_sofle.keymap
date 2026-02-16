@@ -83,11 +83,11 @@
 
         symbol {
             bindings = <
-&kp GRAVE   &kp F1       &kp F2        &kp F3      &kp F4     &kp F5           &mmv MOVE_UP     &kp F6         &kp F7                &kp F8                 &kp F9            &kp F10            &trans
-&mo 2       &kp GRAVE    &kp TILDE     &kp DOLLAR  &kp AT     &kp PIPE         &mmv MOVE_DOWN   &kp CARET      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL
-&trans      &kp EXCL     &kp UNDER     &kp COLON   &kp EQUAL  &kp HASH         &mmv MOVE_LEFT   &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER         &kp SEMICOLON      &kp RIGHT_BRACKET
-&trans      &kp PERCENT  &kp QUESTION  &kp ASTRK   &kp PLUS   &kp BACKSLASH    &mmv MOVE_RIGHT  &kp SLASH      &kp MINUS             &kp LESS_THAN          &kp GREATER_THAN  &kp DOUBLE_QUOTES  &trans
-&kp C_MUTE  &trans       &trans        &trans      &trans     &trans           &mkp LCLK        &trans         &trans                &trans                 &trans            &trans
+&kp GRAVE   &kp F1       &kp F2        &kp F3      &kp F4     &kp F5           &mmv MOVE_UP      &kp F6         &kp F7                &kp F8                 &kp F9            &kp F10            &trans
+&mo 2       &kp GRAVE    &kp TILDE     &kp DOLLAR  &kp AT     &kp PIPE         &mmv MOVE_DOWN    &kp CARET      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL
+&trans      &kp EXCL     &kp UNDER     &kp COLON   &kp EQUAL  &kp HASH         &kp C_PREV        &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER         &kp SEMICOLON      &kp RIGHT_BRACKET
+&trans      &kp PERCENT  &kp QUESTION  &kp ASTRK   &kp PLUS   &kp BACKSLASH    &kp C_NEXT        &kp SLASH      &kp MINUS             &kp LESS_THAN          &kp GREATER_THAN  &kp DOUBLE_QUOTES  &trans
+&kp C_MUTE  &trans       &trans        &trans      &trans     &trans           &kp C_PLAY_PAUSE  &trans         &trans                &trans                 &trans            &trans
             >;
 
             display-name = "symbol";
@@ -108,5 +108,3 @@
         };
     };
 };
-
-
