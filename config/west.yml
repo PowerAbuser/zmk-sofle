@@ -20,16 +20,16 @@ manifest:
       revision: main
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3.0
       import: app/west.yml
-    # - name: zmk-sofle
-    #   remote: art-display
-    #   revision: main
     - name: nice-view-gem #new entry
       remote: m165437 #new entry
       revision: main #new entry
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
+    # - name: zmk-sofle
+    #   remote: art-display
+    #   revision: main
   self:
     path: boards
